@@ -15,5 +15,8 @@ fun main() {
         .send(request, BodyHandlers.ofString())
 
     val jsonResponse = response.body()
-    println(jsonResponse)
+
+    val myGame = Game("Minecraft", "oaihrsoiraoisnr")
+
+    println(myGame)
 }
