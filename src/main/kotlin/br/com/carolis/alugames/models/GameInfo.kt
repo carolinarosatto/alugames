@@ -1,4 +1,4 @@
-package org.example
+package br.com.carolis.alugames.models
 
 data class GameInfo(val info: InfoApiCheapShark) {
     override fun toString(): String {
